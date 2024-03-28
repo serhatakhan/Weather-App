@@ -72,3 +72,9 @@ Proje, popüler bir hava durumu API'si olan OpenWeather API'sini kullanarak ger�
 ## Yayın Linki
 
 https://weather-app-red-three-74.vercel.app/
+
+
+## Ekran Gifi
+
+![Kayt2024-03-28192140-ezgif com-video-to-gif-converter](https://github.com/serhatakhan/Weather-App/assets/147662915/e5687e28-454c-4926-adb6-1c98211e5352)
+
