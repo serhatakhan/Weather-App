@@ -11,7 +11,7 @@ const AutoComplete = ({ handleLocationChange }) => {
   const fetchCitySuggestions = async (inputValue) => {
     await axios
       .get(
-        `http://api.openweathermap.org/geo/1.0/direct?q=${inputValue}&limit=2&appid=${API_URL}`
+        `https://api.openweathermap.org/geo/1.0/direct?q=${inputValue}&limit=2&appid=${API_URL}`
       )
       .then((res) => {
         const cities = res.data.map((city) => ({

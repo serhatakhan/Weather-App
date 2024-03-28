@@ -21,7 +21,7 @@ const Weather = () => {
     const fetchWeatherData = async () => {
       try {
         const res = await axios.get(
-          `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_URL}`
+          `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_URL}`
         );
         setWeatherData(res.data);
       } catch (err) {
@@ -33,7 +33,7 @@ const Weather = () => {
     const fetchForecastData = async () => {
       try {
         const res = await axios.get(
-          `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_URL}`
+          `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_URL}`
         );
         setForecastData(res.data);
       } catch (err) {
