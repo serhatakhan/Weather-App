@@ -35,9 +35,9 @@ Proje, popüler bir hava durumu API'si olan OpenWeather API'sini kullanarak ger�
 
 * GitHub'daki projenin sayfasına gidin.
 
-* Sağ üst köşede bulunan "Code" veya "Clone or download" butonuna tıklayın.
+* Sağ üst köşede bulunan `"Code"` veya "Clone or download" butonuna tıklayın.
 
-* "Download ZIP" seçeneğini seçerek projenin ZIP dosyasını indirin ve bilgisayarınıza kaydedin.
+* `"Download ZIP"` seçeneğini seçerek projenin ZIP dosyasını indirin ve bilgisayarınıza kaydedin.
 
 * ZIP dosyasını istediğiniz bir klasöre çıkartın.
 
@@ -48,7 +48,7 @@ Proje, popüler bir hava durumu API'si olan OpenWeather API'sini kullanarak ger�
 
 * Çıkartılan klasöre giderek içerisindeki dosyaları düzenleyin ve gerekli değişiklikleri yapın.
 
-* Projenin ana dizinine .env dosyası oluşturun ve içine API anahtarınızı tanımlayın (örneğin: VITE_API_URL=123456789987654321).
+* Projenin ana dizinine .env dosyası oluşturun ve içine OpenWeather resmi sitesinden almış olduğunuz API anahtarınızı tanımlayın (örneğin: VITE_API_URL=123456789987654321).
 
 
 **3. Bağımlılıkları Yükleme:**
